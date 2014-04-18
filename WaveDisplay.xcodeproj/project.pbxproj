@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8E4BBF1901538F00D2B4D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8E4BBE1901538F00D2B4D4 /* Cocoa.framework */; };
+		FF8E4BC91901538F00D2B4D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF8E4BC71901538F00D2B4D4 /* InfoPlist.strings */; };
+		FF8E4BCB1901538F00D2B4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E4BCA1901538F00D2B4D4 /* main.m */; };
+		FF8E4BCF1901538F00D2B4D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FF8E4BCD1901538F00D2B4D4 /* Credits.rtf */; };
+		FF8E4BD21901538F00D2B4D4 /* LOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E4BD11901538F00D2B4D4 /* LOAppDelegate.m */; };
+		FF8E4BD51901538F00D2B4D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8E4BD31901538F00D2B4D4 /* MainMenu.xib */; };
+		FF8E4BD71901538F00D2B4D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8E4BD61901538F00D2B4D4 /* Images.xcassets */; };
+		FF8E4BDE1901538F00D2B4D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8E4BDD1901538F00D2B4D4 /* XCTest.framework */; };
+		FF8E4BDF1901538F00D2B4D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8E4BBE1901538F00D2B4D4 /* Cocoa.framework */; };
+		FF8E4BE71901538F00D2B4D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF8E4BE51901538F00D2B4D4 /* InfoPlist.strings */; };
+		FF8E4BE91901538F00D2B4D4 /* WaveDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E4BE81901538F00D2B4D4 /* WaveDisplayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8E4BE01901538F00D2B4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8E4BB31901538F00D2B4D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8E4BBA1901538F00D2B4D4;
+			remoteInfo = WaveDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8E4BBB1901538F00D2B4D4 /* WaveDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8E4BBE1901538F00D2B4D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FF8E4BC11901538F00D2B4D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FF8E4BC21901538F00D2B4D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF8E4BC31901538F00D2B4D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF8E4BC61901538F00D2B4D4 /* WaveDisplay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveDisplay-Info.plist"; sourceTree = "<group>"; };
+		FF8E4BC81901538F00D2B4D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF8E4BCA1901538F00D2B4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8E4BCC1901538F00D2B4D4 /* WaveDisplay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveDisplay-Prefix.pch"; sourceTree = "<group>"; };
+		FF8E4BCE1901538F00D2B4D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FF8E4BD01901538F00D2B4D4 /* LOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOAppDelegate.h; sourceTree = "<group>"; };
+		FF8E4BD11901538F00D2B4D4 /* LOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOAppDelegate.m; sourceTree = "<group>"; };
+		FF8E4BD41901538F00D2B4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF8E4BD61901538F00D2B4D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF8E4BDC1901538F00D2B4D4 /* WaveDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8E4BDD1901538F00D2B4D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF8E4BE41901538F00D2B4D4 /* WaveDisplayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveDisplayTests-Info.plist"; sourceTree = "<group>"; };
+		FF8E4BE61901538F00D2B4D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF8E4BE81901538F00D2B4D4 /* WaveDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveDisplayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8E4BB81901538F00D2B4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BBF1901538F00D2B4D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8E4BD91901538F00D2B4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BDF1901538F00D2B4D4 /* Cocoa.framework in Frameworks */,
+				FF8E4BDE1901538F00D2B4D4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8E4BB21901538F00D2B4D4 = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BC41901538F00D2B4D4 /* WaveDisplay */,
+				FF8E4BE21901538F00D2B4D4 /* WaveDisplayTests */,
+				FF8E4BBD1901538F00D2B4D4 /* Frameworks */,
+				FF8E4BBC1901538F00D2B4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8E4BBC1901538F00D2B4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BBB1901538F00D2B4D4 /* WaveDisplay.app */,
+				FF8E4BDC1901538F00D2B4D4 /* WaveDisplayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8E4BBD1901538F00D2B4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BBE1901538F00D2B4D4 /* Cocoa.framework */,
+				FF8E4BDD1901538F00D2B4D4 /* XCTest.framework */,
+				FF8E4BC01901538F00D2B4D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8E4BC01901538F00D2B4D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BC11901538F00D2B4D4 /* AppKit.framework */,
+				FF8E4BC21901538F00D2B4D4 /* CoreData.framework */,
+				FF8E4BC31901538F00D2B4D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FF8E4BC41901538F00D2B4D4 /* WaveDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BD01901538F00D2B4D4 /* LOAppDelegate.h */,
+				FF8E4BD11901538F00D2B4D4 /* LOAppDelegate.m */,
+				FF8E4BD31901538F00D2B4D4 /* MainMenu.xib */,
+				FF8E4BD61901538F00D2B4D4 /* Images.xcassets */,
+				FF8E4BC51901538F00D2B4D4 /* Supporting Files */,
+			);
+			path = WaveDisplay;
+			sourceTree = "<group>";
+		};
+		FF8E4BC51901538F00D2B4D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BC61901538F00D2B4D4 /* WaveDisplay-Info.plist */,
+				FF8E4BC71901538F00D2B4D4 /* InfoPlist.strings */,
+				FF8E4BCA1901538F00D2B4D4 /* main.m */,
+				FF8E4BCC1901538F00D2B4D4 /* WaveDisplay-Prefix.pch */,
+				FF8E4BCD1901538F00D2B4D4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8E4BE21901538F00D2B4D4 /* WaveDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BE81901538F00D2B4D4 /* WaveDisplayTests.m */,
+				FF8E4BE31901538F00D2B4D4 /* Supporting Files */,
+			);
+			path = WaveDisplayTests;
+			sourceTree = "<group>";
+		};
+		FF8E4BE31901538F00D2B4D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E4BE41901538F00D2B4D4 /* WaveDisplayTests-Info.plist */,
+				FF8E4BE51901538F00D2B4D4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8E4BBA1901538F00D2B4D4 /* WaveDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8E4BEC1901538F00D2B4D4 /* Build configuration list for PBXNativeTarget "WaveDisplay" */;
+			buildPhases = (
+				FF8E4BB71901538F00D2B4D4 /* Sources */,
+				FF8E4BB81901538F00D2B4D4 /* Frameworks */,
+				FF8E4BB91901538F00D2B4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveDisplay;
+			productName = WaveDisplay;
+			productReference = FF8E4BBB1901538F00D2B4D4 /* WaveDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8E4BDB1901538F00D2B4D4 /* WaveDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8E4BEF1901538F00D2B4D4 /* Build configuration list for PBXNativeTarget "WaveDisplayTests" */;
+			buildPhases = (
+				FF8E4BD81901538F00D2B4D4 /* Sources */,
+				FF8E4BD91901538F00D2B4D4 /* Frameworks */,
+				FF8E4BDA1901538F00D2B4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8E4BE11901538F00D2B4D4 /* PBXTargetDependency */,
+			);
+			name = WaveDisplayTests;
+			productName = WaveDisplayTests;
+			productReference = FF8E4BDC1901538F00D2B4D4 /* WaveDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8E4BB31901538F00D2B4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Luke Oglesby";
+				TargetAttributes = {
+					FF8E4BDB1901538F00D2B4D4 = {
+						TestTargetID = FF8E4BBA1901538F00D2B4D4;
+					};
+				};
+			};
+			buildConfigurationList = FF8E4BB61901538F00D2B4D4 /* Build configuration list for PBXProject "WaveDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8E4BB21901538F00D2B4D4;
+			productRefGroup = FF8E4BBC1901538F00D2B4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8E4BBA1901538F00D2B4D4 /* WaveDisplay */,
+				FF8E4BDB1901538F00D2B4D4 /* WaveDisplayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8E4BB91901538F00D2B4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BC91901538F00D2B4D4 /* InfoPlist.strings in Resources */,
+				FF8E4BD71901538F00D2B4D4 /* Images.xcassets in Resources */,
+				FF8E4BCF1901538F00D2B4D4 /* Credits.rtf in Resources */,
+				FF8E4BD51901538F00D2B4D4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8E4BDA1901538F00D2B4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BE71901538F00D2B4D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8E4BB71901538F00D2B4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BCB1901538F00D2B4D4 /* main.m in Sources */,
+				FF8E4BD21901538F00D2B4D4 /* LOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8E4BD81901538F00D2B4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8E4BE91901538F00D2B4D4 /* WaveDisplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8E4BE11901538F00D2B4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8E4BBA1901538F00D2B4D4 /* WaveDisplay */;
+			targetProxy = FF8E4BE01901538F00D2B4D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8E4BC71901538F00D2B4D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8E4BC81901538F00D2B4D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF8E4BCD1901538F00D2B4D4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8E4BCE1901538F00D2B4D4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FF8E4BD31901538F00D2B4D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8E4BD41901538F00D2B4D4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FF8E4BE51901538F00D2B4D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8E4BE61901538F00D2B4D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8E4BEA1901538F00D2B4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF8E4BEB1901538F00D2B4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF8E4BED1901538F00D2B4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveDisplay/WaveDisplay-Prefix.pch";
+				INFOPLIST_FILE = "WaveDisplay/WaveDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF8E4BEE1901538F00D2B4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveDisplay/WaveDisplay-Prefix.pch";
+				INFOPLIST_FILE = "WaveDisplay/WaveDisplay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF8E4BF01901538F00D2B4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveDisplay.app/Contents/MacOS/WaveDisplay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveDisplay/WaveDisplay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WaveDisplayTests/WaveDisplayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF8E4BF11901538F00D2B4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveDisplay.app/Contents/MacOS/WaveDisplay";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveDisplay/WaveDisplay-Prefix.pch";
+				INFOPLIST_FILE = "WaveDisplayTests/WaveDisplayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8E4BB61901538F00D2B4D4 /* Build configuration list for PBXProject "WaveDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8E4BEA1901538F00D2B4D4 /* Debug */,
+				FF8E4BEB1901538F00D2B4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8E4BEC1901538F00D2B4D4 /* Build configuration list for PBXNativeTarget "WaveDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8E4BED1901538F00D2B4D4 /* Debug */,
+				FF8E4BEE1901538F00D2B4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8E4BEF1901538F00D2B4D4 /* Build configuration list for PBXNativeTarget "WaveDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8E4BF01901538F00D2B4D4 /* Debug */,
+				FF8E4BF11901538F00D2B4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8E4BB31901538F00D2B4D4 /* Project object */;
+}
